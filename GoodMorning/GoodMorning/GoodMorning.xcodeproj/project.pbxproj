@@ -8,12 +8,12 @@
 
 /* Begin PBXBuildFile section */
 		BD2CF5D51A718C8E008A728D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD2CF5D41A718C8E008A728D /* AppDelegate.swift */; };
-		BD2CF5D71A718C8E008A728D /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD2CF5D61A718C8E008A728D /* FirstViewController.swift */; };
-		BD2CF5D91A718C8E008A728D /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD2CF5D81A718C8E008A728D /* SecondViewController.swift */; };
 		BD2CF5DC1A718C8E008A728D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BD2CF5DA1A718C8E008A728D /* Main.storyboard */; };
 		BD2CF5DE1A718C8E008A728D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BD2CF5DD1A718C8E008A728D /* Images.xcassets */; };
 		BD2CF5E11A718C8E008A728D /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = BD2CF5DF1A718C8E008A728D /* LaunchScreen.xib */; };
 		BD2CF5ED1A718C8E008A728D /* GoodMorningTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD2CF5EC1A718C8E008A728D /* GoodMorningTests.swift */; };
+		BD8BE11C1AB55EFB008C69A4 /* WeatherViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD8BE11B1AB55EFB008C69A4 /* WeatherViewController.swift */; };
+		BD8BE11D1AB56886008C69A4 /* weathericons-regular-webfont.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BD8BE1191AB55BEB008C69A4 /* weathericons-regular-webfont.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -30,14 +30,14 @@
 		BD2CF5CF1A718C8E008A728D /* GoodMorning.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GoodMorning.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BD2CF5D31A718C8E008A728D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BD2CF5D41A718C8E008A728D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		BD2CF5D61A718C8E008A728D /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
-		BD2CF5D81A718C8E008A728D /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
 		BD2CF5DB1A718C8E008A728D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		BD2CF5DD1A718C8E008A728D /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		BD2CF5E01A718C8E008A728D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		BD2CF5E61A718C8E008A728D /* GoodMorningTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GoodMorningTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BD2CF5EB1A718C8E008A728D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BD2CF5EC1A718C8E008A728D /* GoodMorningTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoodMorningTests.swift; sourceTree = "<group>"; };
+		BD8BE1191AB55BEB008C69A4 /* weathericons-regular-webfont.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "weathericons-regular-webfont.ttf"; path = "../../../submodules/weather-icons/font/weathericons-regular-webfont.ttf"; sourceTree = "<group>"; };
+		BD8BE11B1AB55EFB008C69A4 /* WeatherViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WeatherViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,9 +79,9 @@
 		BD2CF5D11A718C8E008A728D /* GoodMorning */ = {
 			isa = PBXGroup;
 			children = (
+				BD8BE11A1AB55BF3008C69A4 /* resource */,
 				BD2CF5D41A718C8E008A728D /* AppDelegate.swift */,
-				BD2CF5D61A718C8E008A728D /* FirstViewController.swift */,
-				BD2CF5D81A718C8E008A728D /* SecondViewController.swift */,
+				BD8BE11B1AB55EFB008C69A4 /* WeatherViewController.swift */,
 				BD2CF5DA1A718C8E008A728D /* Main.storyboard */,
 				BD2CF5DD1A718C8E008A728D /* Images.xcassets */,
 				BD2CF5DF1A718C8E008A728D /* LaunchScreen.xib */,
@@ -113,6 +113,14 @@
 				BD2CF5EB1A718C8E008A728D /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		BD8BE11A1AB55BF3008C69A4 /* resource */ = {
+			isa = PBXGroup;
+			children = (
+				BD8BE1191AB55BEB008C69A4 /* weathericons-regular-webfont.ttf */,
+			);
+			name = resource;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -198,6 +206,7 @@
 			files = (
 				BD2CF5DC1A718C8E008A728D /* Main.storyboard in Resources */,
 				BD2CF5E11A718C8E008A728D /* LaunchScreen.xib in Resources */,
+				BD8BE11D1AB56886008C69A4 /* weathericons-regular-webfont.ttf in Resources */,
 				BD2CF5DE1A718C8E008A728D /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -216,9 +225,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BD2CF5D91A718C8E008A728D /* SecondViewController.swift in Sources */,
 				BD2CF5D51A718C8E008A728D /* AppDelegate.swift in Sources */,
-				BD2CF5D71A718C8E008A728D /* FirstViewController.swift in Sources */,
+				BD8BE11C1AB55EFB008C69A4 /* WeatherViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -412,6 +420,7 @@
 				BD2CF5F21A718C8E008A728D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		BD2CF5F31A718C8E008A728D /* Build configuration list for PBXNativeTarget "GoodMorningTests" */ = {
 			isa = XCConfigurationList;
@@ -420,6 +429,7 @@
 				BD2CF5F51A718C8E008A728D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
