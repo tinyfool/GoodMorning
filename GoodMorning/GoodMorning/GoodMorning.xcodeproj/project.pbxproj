@@ -14,6 +14,9 @@
 		BD2CF5ED1A718C8E008A728D /* GoodMorningTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD2CF5EC1A718C8E008A728D /* GoodMorningTests.swift */; };
 		BD8BE11C1AB55EFB008C69A4 /* WeatherViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD8BE11B1AB55EFB008C69A4 /* WeatherViewController.swift */; };
 		BD8BE11D1AB56886008C69A4 /* weathericons-regular-webfont.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BD8BE1191AB55BEB008C69A4 /* weathericons-regular-webfont.ttf */; };
+		BD8BE11F1AB5B05E008C69A4 /* ContainerPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD8BE11E1AB5B05E008C69A4 /* ContainerPageViewController.swift */; };
+		BD8BE1211AB6B4D3008C69A4 /* WelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD8BE1201AB6B4D3008C69A4 /* WelcomeViewController.swift */; };
+		BD8BE1231AB6C245008C69A4 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD8BE1221AB6C245008C69A4 /* BaseViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +41,9 @@
 		BD2CF5EC1A718C8E008A728D /* GoodMorningTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoodMorningTests.swift; sourceTree = "<group>"; };
 		BD8BE1191AB55BEB008C69A4 /* weathericons-regular-webfont.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "weathericons-regular-webfont.ttf"; path = "../../../submodules/weather-icons/font/weathericons-regular-webfont.ttf"; sourceTree = "<group>"; };
 		BD8BE11B1AB55EFB008C69A4 /* WeatherViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WeatherViewController.swift; sourceTree = "<group>"; };
+		BD8BE11E1AB5B05E008C69A4 /* ContainerPageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContainerPageViewController.swift; sourceTree = "<group>"; };
+		BD8BE1201AB6B4D3008C69A4 /* WelcomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WelcomeViewController.swift; sourceTree = "<group>"; };
+		BD8BE1221AB6C245008C69A4 /* BaseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +89,9 @@
 				BD2CF5D41A718C8E008A728D /* AppDelegate.swift */,
 				BD8BE11B1AB55EFB008C69A4 /* WeatherViewController.swift */,
 				BD2CF5DA1A718C8E008A728D /* Main.storyboard */,
+				BD8BE1201AB6B4D3008C69A4 /* WelcomeViewController.swift */,
+				BD8BE1221AB6C245008C69A4 /* BaseViewController.swift */,
+				BD8BE11E1AB5B05E008C69A4 /* ContainerPageViewController.swift */,
 				BD2CF5DD1A718C8E008A728D /* Images.xcassets */,
 				BD2CF5DF1A718C8E008A728D /* LaunchScreen.xib */,
 				BD2CF5D21A718C8E008A728D /* Supporting Files */,
@@ -225,8 +234,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BD8BE1231AB6C245008C69A4 /* BaseViewController.swift in Sources */,
 				BD2CF5D51A718C8E008A728D /* AppDelegate.swift in Sources */,
+				BD8BE1211AB6B4D3008C69A4 /* WelcomeViewController.swift in Sources */,
 				BD8BE11C1AB55EFB008C69A4 /* WeatherViewController.swift in Sources */,
+				BD8BE11F1AB5B05E008C69A4 /* ContainerPageViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -9,7 +9,7 @@
 import UIKit
 import AVFoundation
 
-class WeatherViewController: UIViewController {
+class WeatherViewController: BaseViewController {
 
     
     @IBOutlet weak var containerView: UIView!
@@ -19,15 +19,7 @@ class WeatherViewController: UIViewController {
 
         // Do any additional setup after loading the view.
         containerView.layer.cornerRadius = 15
-        
-        
-        
-        var synthesizer = AVSpeechSynthesizer();
-        var utterance = AVSpeechUtterance(string: "");
-        utterance = AVSpeechUtterance(string: "天津市今日，多云，气温16摄氏度，空气质量指数160，轻度污染，建议戴口罩。");
-        utterance.voice = AVSpeechSynthesisVoice(language:"zh-CN");
-        utterance.rate = 0.1;
-        synthesizer.speakUtterance(utterance);
+        self.speak("天津市今日，多云，气温16摄氏度，空气质量指数160，轻度污染，建议戴口罩。")
     }
 
     override func didReceiveMemoryWarning() {
